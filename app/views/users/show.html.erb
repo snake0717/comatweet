@@ -1,5 +1,6 @@
 <div class="contents row">
   <p><%= @nickname %>さんの投稿一覧</p>
+  <%= render partial: "relationships/follow_button", locals: { user: @user } %>
   <% @tweets.each do |tweet| %>
     <%= render partial: "tweets/tweet", locals: { tweet: tweet } %>
   <% end %>
