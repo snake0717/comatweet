@@ -3,4 +3,8 @@
   <% @tweets.each do |tweet| %>
     <%= render partial: "tweets/tweet", locals: { tweet: tweet } %>
   <% end %>
+<h3>いいねしている投稿</h3>
+<% @user.like_tweets.each do |tweet| %>
+<%= render partial: "tweets/tweet", locals: { tweet: tweet } %>
+<% end %>
 </div>
