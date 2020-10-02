@@ -1112,3 +1112,61 @@ footer p {
 
 }
 
+.show_iine {
+  display: flex;
+  margin-left: 180px;
+}
+
+.show_iine_num {
+  font-size: 25px;
+  margin: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.show_iine_user {
+  margin: 17px 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+.user_show_follow {
+  margin: 15px 20px;
+  
+  list-style: none;
+}
+
+.user_show_follower {
+  margin: 15px 10px;
+  
+  list-style: none;
+}
+
+.follow_btn {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 660px;
+}
+
+.user_new {
+  display: flex;
+}
+
+.user_login{
+  display: flex;
+}
+
+.tweet_create {
+  display: flex;
+}
+
+.tweet_destroy {
+  display: flex;
+}
+
+.tweet_update {
+  display: flex;
+}

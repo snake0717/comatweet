@@ -1,19 +1,31 @@
 <div class="user_show">
 <p><%= @nickname %>さんの投稿一覧</p>
+<div class="user_show_follow">
+フォローしている
+<select>
 
-<p>フォローしている</p>
+
 <% @user.followings.each do |user| %>
-<%= user.nickname %>
+<option><%= user.nickname %></option>
 <% end %>
-<p>フォローされている</p>
+</select>
+</div>
+<div class="user_show_follower">
+フォローされている
+<select>
 <% @user.followers.each do |user| %>
-<%= user.nickname %>
+<option><%= user.nickname %></option>
 <% end %>
+</select>
+</div>
 
+</div>
 
 
 <%= render partial: "relationships/follow_button", locals: { user: @user } %>
-</div>
+
+
+
 <div class="contents row">
   
   
@@ -30,4 +42,6 @@
 <% end %>
 </div>
 <div>
+
+
 

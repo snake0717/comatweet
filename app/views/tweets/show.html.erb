@@ -25,12 +25,19 @@
   </div>
   </div>
 
-  <div>
-  <h3><%= button_to 'いいね！', tweet_likes_path(@tweet) %> <%= @tweet.likes.count %></h3>
-  <h3>いいねしたユーザー</h3>
+  <div class="show_iine">
+  <%= button_to 'いいね！', tweet_likes_path(@tweet) %> 
+  <div class="show_iine_num">
+  <%= @tweet.likes.count %>
+  </div>
+  <div class="show_iine_user">
+  いいねしたユーザー
+  <select>
 <% @tweet.like_users.each do |user| %>
-  <li><%= user.nickname %></li>
+  <option><%= user.nickname %></option>
 <% end %>
+</select>
+</div>
   </div>
   
   <div class="container">
