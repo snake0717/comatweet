@@ -463,7 +463,11 @@ ul li {
 }
 
 .row {
-  width: 100%;
+  display: flex;
+  text-align: justify;
+  
+  flex-wrap: wrap;
+  width: 100wh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
@@ -638,7 +642,7 @@ ul li {
 body,
 html {
   height: 100%;
-  background-color: #f5f5f3;
+  background-color: white;
 }
 
 body {
@@ -859,10 +863,11 @@ div.contents.row .new_user {
 }
 
 div.contents.row div.content_post {
-  margin: 20px 0;
+  margin: 20px 15px;
   padding: 30px;
   position: relative;
-  height: 400px;
+  height: 300px;
+  width: 300px;
   color: #fff;
   background-size: cover;
   background-position: center center;
@@ -957,12 +962,12 @@ div.contents.row div.content_post span.name {
 
 div.contents.row div.content_post span.name a {
   display: block;
-  color: #aaa;
+  color: rgb(253, 251, 251);
 }
 
 div.contents.row div.content_post span.name a:hover {
   text-decoration: underline;
-  color: #aaa;
+  color: white;
 }
 
 div.contents.row div.content_post span.name span {
@@ -1047,6 +1052,9 @@ footer p {
 .search-form {
   text-align: center;
   padding-top: 32px;
+  padding-bottom: 27px;
+  border-bottom: 5px solid rgb(238, 234, 234)
+
 }
 
 .search-form .search-input {
@@ -1056,4 +1064,109 @@ footer p {
 
 .search-form .search-btn {
   width: 10%;
+}
+
+.new_tweet {
+  display: flex;
+  text-align: justify;
+  width: 100wh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 660px;
+  *zoom: 1;
+}
+
+.user_show {
+  display: flex;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 660px;
+  *zoom: 1;
+}
+
+.iine {
+  margin: 30px 380px;
+
+}
+.tweet_show {
+  
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 660px;
+  *zoom: 1;
+
+}
+
+.tweet_show_image {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.show_iine {
+  display: flex;
+  margin-left: 180px;
+}
+
+.show_iine_num {
+  font-size: 25px;
+  margin: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.show_iine_user {
+  margin: 17px 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+
+.user_show_follow {
+  margin: 15px 20px;
+  
+  list-style: none;
+}
+
+.user_show_follower {
+  margin: 15px 10px;
+  
+  list-style: none;
+}
+
+.follow_btn {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 660px;
+}
+
+.user_new {
+  display: flex;
+}
+
+.user_login{
+  display: flex;
+}
+
+.tweet_create {
+  display: flex;
+}
+
+.tweet_destroy {
+  display: flex;
+}
+
+.tweet_update {
+  display: flex;
 }

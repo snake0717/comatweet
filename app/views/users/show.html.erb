@@ -1,11 +1,47 @@
+<div class="user_show">
+<p><%= @nickname %>さんの投稿一覧</p>
+<div class="user_show_follow">
+フォローしている
+<select>
+
+
+<% @user.followings.each do |user| %>
+<option><%= user.nickname %></option>
+<% end %>
+</select>
+</div>
+<div class="user_show_follower">
+フォローされている
+<select>
+<% @user.followers.each do |user| %>
+<option><%= user.nickname %></option>
+<% end %>
+</select>
+</div>
+
+</div>
+
+
+<%= render partial: "relationships/follow_button", locals: { user: @user } %>
+
+
+
 <div class="contents row">
-  <p><%= @nickname %>さんの投稿一覧</p>
-  <%= render partial: "relationships/follow_button", locals: { user: @user } %>
+  
+  
   <% @tweets.each do |tweet| %>
     <%= render partial: "tweets/tweet", locals: { tweet: tweet } %>
   <% end %>
+  </div>
+  <div class="iine">
 <h3>いいねしている投稿</h3>
+  </div>
+<div class="contents row">
 <% @user.like_tweets.each do |tweet| %>
 <%= render partial: "tweets/tweet", locals: { tweet: tweet } %>
 <% end %>
 </div>
+<div>
+
+
+

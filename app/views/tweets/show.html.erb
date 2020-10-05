@@ -1,5 +1,7 @@
+<div class="tweet_show">
 <div class="contents row">
-  <div class="content_post" style="background-image: url(<%= @tweet.image %>);">
+<div class="tweet_show_image">
+  <div class="content_post" style="background-image: url(<%= rails_blob_path(@tweet.image) %>);">
     <div class="more">
       <span><%= image_tag 'arrow_top.png' %></span>
       <ul class="more_list">
@@ -20,18 +22,29 @@
       </a>
     </span>
   </div>
-  <h3>いいね件数: <%= @tweet.likes.count %></h3>
-  <h3>いいねしたユーザー</h3>
+  </div>
+  </div>
+
+  <div class="show_iine">
+  <%= button_to 'いいね！', tweet_likes_path(@tweet) %> 
+  <div class="show_iine_num">
+  <%= @tweet.likes.count %>
+  </div>
+  <div class="show_iine_user">
+  いいねしたユーザー
+  <select>
 <% @tweet.like_users.each do |user| %>
-  <li><%= user.nickname %></li>
+  <option><%= user.nickname %></option>
 <% end %>
-  <%= button_to 'いいね', tweet_likes_path(@tweet) %>
+</select>
+</div>
+  </div>
   
   <div class="container">
     <% if current_user %>
       <%= form_with(model: [@tweet, @comment], local: true) do |form| %>
-        <%= form.text_area :text, placeholder: "コメントする", rows: "2" %>
-        <%= form.submit "SEND" %>
+        <%= form.text_area :text, placeholder: "コメント", rows: "2" %>
+        <%= form.submit "コメントする" %>
       <% end %>
     <% else %>
       <strong><p>※※※ コメントの投稿には新規登録/ログインが必要です ※※※</p></strong>
@@ -48,4 +61,5 @@
       <% end %>
     </div>
   </div>
+</div>
 </div>
