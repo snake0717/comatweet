@@ -18,9 +18,11 @@
         </ul>
       </div>
       <p><%= tweet.text %></p>
+      <% if user_signed_in? %>
       <span class="name">
         <a href="/users/<%= tweet.user.id %>">
           <span>投稿者</span><%= tweet.user.nickname %>
         </a>
       </span>
+      <% end %>
     </div>
