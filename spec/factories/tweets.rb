@@ -1,7 +1,6 @@
 FactoryBot.define do
   factory :tweet do
-    text     { 'てすと' }
+    text { 'てすと' }
     association :user
-    
   end
 end

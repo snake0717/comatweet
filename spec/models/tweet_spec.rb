@@ -10,30 +10,23 @@ RSpec.describe Tweet, type: :model do
 
   describe 'コマ投稿がうまくいくとき' do
     context 'コマ投稿がうまくいくとき' do
-    it"全ての項目が入力されていると投稿できる" do
-      expect(@tweet).to be_valid
+      it '全ての項目が入力されていると投稿できる' do
+        expect(@tweet).to be_valid
+      end
     end
-    end
-    
+
     context 'コマ投稿がうまくいかないとき' do
-      it"imageがないと投稿できない" do
+      it 'imageがないと投稿できない' do
         @tweet.image = nil
         @tweet.valid?
         expect(@tweet.errors.full_messages).to include("Image can't be blank")
       end
 
-      it"textがないと投稿できない" do
+      it 'textがないと投稿できない' do
         @tweet.text = nil
         @tweet.valid?
         expect(@tweet.errors.full_messages).to include("Text can't be blank")
       end
     end
-    
-    
   end
-
-
-
-
-
 end

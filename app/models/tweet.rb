@@ -8,7 +8,6 @@ class Tweet < ApplicationRecord
   validates :image, presence: true
   validates :text, presence: true
 
-
   def self.search(search)
     if search != ''
       Tweet.where('text LIKE(?)', "%#{search}%")
