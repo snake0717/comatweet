@@ -36,10 +36,11 @@ password: test123
 
 
 ## 実装した機能についてのGIFと説明
-# 新規登録  
+新規登録  
 https://user-images.githubusercontent.com/69613407/95296265-6f099800-08b3-11eb-9f52-e647c01557e9.gif 
 https://user-images.githubusercontent.com/69613407/95296294-7af55a00-08b3-11eb-9cae-30da15e7aead.gif
-# コマ投稿
+
+コマ投稿
 https://user-images.githubusercontent.com/69613407/95296787-577edf00-08b4-11eb-8d9f-39cdcbe15431.gif
 https://user-images.githubusercontent.com/69613407/95296799-5fd71a00-08b4-11eb-8535-bf50add64f82.gif
 
