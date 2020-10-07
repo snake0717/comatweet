@@ -11,11 +11,11 @@
 https://camatweet-app-29267.herokuapp.com/
 
 ## テスト用アカウント
-email: test@test
-  password: test123
+email: test@test  
+password: test123
 
-email: test2@test2
-  password: test123
+email: test2@test2  
+password: test123
 
 ## 利用方法
 新規登録、もしくはテスト用アカウントでログイン後、トップページの右上にあるコマ投稿ボタンから画像を投稿する。
