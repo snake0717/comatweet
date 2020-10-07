@@ -73,8 +73,9 @@ https://user-images.githubusercontent.com/69613407/95299539-dbd36100-08b8-11eb-9
 ## 実装予定の機能  
 非同期通信の実装
 
-## データベース設計
+## データベース設計  
+https://user-images.githubusercontent.com/69613407/95303805-a467b300-08be-11eb-8d50-af119b9713c2.jpg
 
-## ローカルでの動作方法
+## ローカルでの動作方法  
 ruby 2.6.5  
 rails 6.0.3.3
