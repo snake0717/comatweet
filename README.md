@@ -37,8 +37,8 @@ password: test123
 
 ## 実装した機能についてのGIFと説明
 # 新規登録  
-https://i.gyazo.com/40bfc6725faf81974b9bb7843cbec89d.gif  
-https://i.gyazo.com/5be7b3d7850ca35a02353f05d597c91c.gif  
+https://user-images.githubusercontent.com/69613407/95296265-6f099800-08b3-11eb-9f52-e647c01557e9.gif 
+https://user-images.githubusercontent.com/69613407/95296294-7af55a00-08b3-11eb-9cae-30da15e7aead.gif
 # コマ投稿
 
 
