@@ -47,6 +47,14 @@ https://user-images.githubusercontent.com/69613407/95296799-5fd71a00-08b4-11eb-8
 検索機能  
 https://user-images.githubusercontent.com/69613407/95297337-44b8da00-08b5-11eb-869a-6513aad3fdf3.gif
 
+編集機能  
+https://user-images.githubusercontent.com/69613407/95297811-0839ae00-08b6-11eb-9c2e-625e3963d280.gif
+https://user-images.githubusercontent.com/69613407/95297839-12f44300-08b6-11eb-80c0-d3c6bb6a9368.gif
+
+削除  
+https://user-images.githubusercontent.com/69613407/95298006-53ec5780-08b6-11eb-9ac0-b0bf790c8295.gif
+
+
 
 
 
