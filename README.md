@@ -65,10 +65,8 @@ https://user-images.githubusercontent.com/69613407/95299911-65832e80-08b9-11eb-8
 https://user-images.githubusercontent.com/69613407/95299532-d83fda00-08b8-11eb-878f-e2a861749637.gif
 https://user-images.githubusercontent.com/69613407/95299539-dbd36100-08b8-11eb-9056-264362cf217a.gif
 
-
-
-
-
+ユーザー詳細機能  
+https://user-images.githubusercontent.com/69613407/95307072-26f27180-08c3-11eb-9f86-f50447a4a071.gif
 
 ## 実装予定の機能  
 非同期通信の実装
