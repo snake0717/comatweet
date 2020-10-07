@@ -1,9 +1,7 @@
 # README
 
-Name
-====
-
-Overview
+アプリケーション名
+コマツイート
 
 ## Description
 
