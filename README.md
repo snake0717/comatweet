@@ -75,3 +75,5 @@ https://user-images.githubusercontent.com/69613407/95299539-dbd36100-08b8-11eb-9
 ## データベース設計
 
 ## ローカルでの動作方法
+ruby 2.6.5  
+rails 6.0.3.3
