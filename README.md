@@ -36,9 +36,11 @@ password: test123
 
 
 ## 実装した機能についてのGIFと説明
-新規登録  
+# 新規登録  
 https://i.gyazo.com/40bfc6725faf81974b9bb7843cbec89d.gif  
-https://i.gyazo.com/5be7b3d7850ca35a02353f05d597c91c.gif
+https://i.gyazo.com/5be7b3d7850ca35a02353f05d597c91c.gif  
+# コマ投稿
+
 
 
 ## 実装予定の機能
