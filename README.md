@@ -59,6 +59,7 @@ https://user-images.githubusercontent.com/69613407/95298995-e80aee80-08b7-11eb-8
 
 いいね機能  
 https://user-images.githubusercontent.com/69613407/95299021-f6f1a100-08b7-11eb-82c7-7c3e82bd2730.gif
+https://user-images.githubusercontent.com/69613407/95299911-65832e80-08b9-11eb-8760-4561bafbbfe3.gif
 
 コメント機能  
 https://user-images.githubusercontent.com/69613407/95299532-d83fda00-08b8-11eb-878f-e2a861749637.gif
