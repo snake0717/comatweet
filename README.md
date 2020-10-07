@@ -24,6 +24,11 @@ password: test123
 漫画好きな人たちが好きな漫画について好きな事を語れるコミュニケーションの場を提供したかった
 
 ## 洗い出した要件
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 
 ## 実装した機能についてのGIFと説明
 
