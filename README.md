@@ -70,7 +70,8 @@ https://user-images.githubusercontent.com/69613407/95299539-dbd36100-08b8-11eb-9
 
 
 
-## 実装予定の機能
+## 実装予定の機能  
+非同期通信の実装
 
 ## データベース設計
 
